@@ -1,7 +1,7 @@
 import { Component } from "react";
 import Carousel from "./components/Carousel";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
-import ProductCard from "./components/ProductCard";
 import ProductDisplay from "./components/ProductDisplay";
 import "./Home.css";
 
@@ -12,6 +12,7 @@ export default class Home extends Component {
         <Header />
         <Carousel />
         <ProductDisplay />
+        <Footer />
       </article>
     );
   }
